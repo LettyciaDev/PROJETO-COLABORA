@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>
+    <title>Projeto Colabora</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h5>ColaB<img src="img/boca.png"></img>ra</h5>
+            </div>
+            <nav>
+                <div class="menu-hamburguer">
+                    <img src="img/menu.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#map">Mapa</a></li>
+                        <li><a href="#curiosidades">Curiosidades</a></li>
+                        <li><a href="#engenharia">Engenharia</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                    </ul>
+               </div>
+            </nav>
+        </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.querySelector(".menu-hamburguer").addEventListener("click", function () {
+                    document.querySelector(".menu").classList.toggle("show");
+                    });
+                });
+           </script>
+    </header>
+    <section>
+        <div class="main-container">
+            <div id="home">
+                <div class="home-content efeito-content-topo">
+                    <div class="home-text">
+                        <div class="home-title">
+                            <h1>Construção de um Artefato tecnológico</h1>
+                            <img src="img/colabora.png" alt="colabora">
+                        </div>
+                         <h3>Objetivo é criar um artefato capaz de chamar a <span>atenção do público</span> em locais inusitados como shopping, feiras, mercados, ruas, parque ou qualquer outro espaço. O desafio é ainda maior: o artefato deve ser especialmente atrativo para crianças e
+                        adolescentes, despertando sua <span>curiosidade</span> e interesse pelas <span>engenharias</span>.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map">
+                <div class="map-content">
+                    <div class="map-text">
+                        <div class="map-title">
+                            <img src="img/localização.png" alt="localização">
+                            <h1>AdmirArte</h1>
+                        </div>
+                        <h3>A obra de arte mais especial e autêntica do mundo, você só encontra aqui!</h3>
+                        <div class="linha_pont_l"></div>
+                        <div class="linha_pont_r"></div>
+                    </div> 
+                    <div class="map_container">
+                        <img src="img/local.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="curiosidades">
+                <div class="curiosidades-content">
+
+                    <div class="background"></div>
+
+                    <div class="curiosidade-texts"> 
+                        <div class="title">
+                            <img src="img/seta.png" alt="">
+                            <h1>O que é o SelfWare Mirror?</h1>
+                        </div>
+                        <div class="text-content efeito-content-curious1">
+                            <h3>É um fusão entre <span>tecnologia</span> e <span> autestima</span>, um espelho interativo equipado com leds ao redor, sensores ultrassônicos e um sistema inteligente que acende os leds quando as se aproximam.</h3>
+                        </div>
+        
+                        <div class="title">
+                            <img src="img/seta.png" alt="">
+                            <h1>Por que “SelfWare”?</h1>
+                        </div>
+                        <div class="text-content efeito-content-curious2">
+                            <h3>O nome Selfware vem da junção de <span>“Self”</span>(eu, si mesmo) e <span>“Software”</span>(programação), simbolizando a ideia de que cada pessoa pode atualizar sua própria mentalidade e evoluir continuamente.</h3>
+                        </div>
+        
+                        <div class="title">
+                            <img src="img/seta.png" alt="">
+                            <h1>Como o SelfWare Mirror funciona?</h1>
+                        </div>
+                        <div class="text-content efeito-content-curious3">
+                            <h3>O espelho com sensores ultrassonicos que detectam a aproximação do usuário e ativam automaticamente os leds. Cartazes espalhados pela cidade sendo o principal meio de atração ao espelho.</h3>
+                        </div>
+        
+                        <div class="title">
+                            <img src="img/seta.png" alt="">
+                            <h1><span>Impacto</span> do Selfware mirror</h1>
+                        </div>
+                        <div class="text-content efeito-content-curious4">
+                            <h3>Representa mais do que o um espelho interativo, sendo uma revolução na forma como nos enxergamos, trazendo tecnologia para o centro da discussão sobre autoimagem e confiança.</h3>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div id="engenharia">
+                <div class="engenharia-content efeito-content-engenharia">
+                    <div class="title">
+                            <img src="img/capacete.png" alt="">
+                            <h1>Conexão com a engenharia da computação</h1>
+                        </div>
+                        <div class="content">
+                            <img src="img/engenharia.jpeg" alt="">
+                             <h3>o projeto Selfware Mirror é um exemplo claro de aplicação da engenharia da Computação, unindo hardaware e software de forma inteligente. </h3><br>
+                             <h3><span>Hardware</span>: Sensores ultrassônicos para detecção de movimento, LEDs para iluminação interativa e um display para exibição de frases.</h3><br>
+                             <h3><span>Software</span>: Um sistema embarcado programa para controlar os sensores e arduino, garantindo que os leds acendam no momento certo.</h3>
+                        </div>
+                    
+                </div>
+                
+            </div>
+
+            <div id="sobre">
+                <div class="sobre-content efeito-content-sobre">
+                    <div class="sobre-text">
+                        <div class="sobre-title">
+                            <img src="img/colabora.png" alt="colabora">
+                            <h1>Sobre</h1>
+                        </div>
+                         <h3>O ColaBora é um ecossitema inovador que busca promover a participação feminina na área de tecnologia, em parceria com diversas instituições
+    
+                            O este projeto propõe e avalia uma metodologia inovadora de capacitação tecnológica, envolvendo o desenvolvimento de produtos tecnológicos e os Objetivos de Desenvolvimento Sustentável(ODS)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="struct_site">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#map">Mapa</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#engenharia">Engenharia</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+
+                <div class="social-media">
+                    <img src="img/insta-logo.svg" alt="">
+                    <a href="https://www.instagram.com/colabora_pesquisa?igsh=cjE4NjEzMmtpYWk0">Projeto Colabora 2025</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
